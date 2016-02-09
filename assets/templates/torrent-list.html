@@ -1,0 +1,16 @@
+<table class="torrent-list table">
+  <thead>
+    <tr>
+        <th>Name</th>
+        <th>Progress</th>
+        <th>Download</th>
+        <th>Upload</th>
+        <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <template v-for="torrent in torrents">
+      <torrent-item :torrent="torrent" track-by="infoHash"></torrent-item>
+    </template>
+  </tbody>
+</table>

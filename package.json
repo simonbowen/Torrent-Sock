@@ -1,0 +1,33 @@
+{
+  "name": "torrect-fck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "bootstrap-sass": "^3.3.6",
+    "browserify": "^13.0.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "filesize": "^3.2.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "lodash": "^4.3.0",
+    "mkdirp": "^0.5.1",
+    "mustache": "^2.2.1",
+    "partialify": "^3.1.6",
+    "randomstring": "^1.1.3",
+    "socket.io": "^1.4.5",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "vue": "^1.0.16",
+    "vue-resource": "^0.7.0",
+    "webtorrent": "^0.73.2"
+  }
+}
